@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>我的網站</title>
+
+<style>
+body{
+background: linear-gradient(135deg,#1e3c72,#2a5298);
+font-family: Arial;
+text-align:center;
+color:white;
+padding-top:100px;
+}
+
+h1{
+font-size:50px;
+}
+
+p{
+font-size:20px;
+}
+
+button{
+padding:15px 30px;
+font-size:18px;
+border:none;
+border-radius:10px;
+background:white;
+color:#2a5298;
+cursor:pointer;
+}
+
+button:hover{
+background:#ddd;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>歡迎來到我的網站</h1>
+<p>我是高中生自己做的網站 😎</p>
+
+<button onclick="alert('謝謝你來我的網站！')">
+點我
+</button>
+
+</body>
+</html>
